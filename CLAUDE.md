@@ -1,9 +1,11 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 # Obsidian PKM Vault Context
 
 ## System Purpose
-[CUSTOMIZE: Add your personal mission statement here]
-
-*Example: "Build meaningful technology while maintaining balance across health, relationships, and personal growth."*
+Build meaningful work and growth across career, health, relationships, and personal development while maintaining balance and intentional progress.
 
 ## Directory Structure
 
@@ -18,7 +20,9 @@
 
 ## Current Focus
 
-See @Goals/2. Monthly Goals.md for this month's priorities.
+**Primary Areas:** Career & Professional, Health & Wellness, Relationships, Personal Growth
+
+See [2. Monthly Goals.md](Goals/2.%20Monthly%20Goals.md) for this month's priorities.
 
 ## Tag System
 
@@ -117,15 +121,74 @@ The full goals-to-tasks flow:
 3. **Use Coach Mode** - When you need accountability
 4. **Keep It Current** - Update project CLAUDE.md files regularly
 
+## System Architecture
+
+### Directory Layout
+```
+.claude/
+├── skills/              # Invocable skills (e.g., /daily, /weekly, /project)
+├── agents/              # Custom agents (goal-aligner, note-organizer, etc.)
+├── rules/               # Vault conventions (markdown standards, task tracking)
+├── output-styles/       # Display modes (e.g., coach mode)
+├── hooks/               # Git hooks for automation
+├── scripts/             # Utility scripts
+└── settings.json        # Harness configuration
+```
+
+### How Skills Work
+Skills like `/daily`, `/weekly`, `/project` are self-contained tools in `.claude/skills/`. Each has a `SKILL.md` defining its behavior. Skills use **session tasks** (temporary progress spinners) for multi-step operations—these are separate from the markdown checkboxes that persist your actual to-do items.
+
+### Rules & Conventions
+The `.claude/rules/` directory contains governance:
+- **markdown-standards.md** — File naming, heading structure, frontmatter format, tags
+- **task-tracking.md** — When/how to use session tasks vs. real markdown tasks
+- **project-management.md** — Project structure and lifecycle
+- **productivity-workflow.md** — Daily/weekly/monthly rituals
+
+## Common Operations
+
+### Saving Changes
+Use the `/push` skill to commit and push:
+```
+/push
+```
+Or manually:
+```bash
+git add .
+git commit -m "Your message"
+git push origin main
+```
+
+### Running Skills
+Skills are invoked with `/` prefix in chat:
+- `/daily` — Create today's note
+- `/weekly` — Weekly review (run Sundays)
+- `/monthly` — Monthly review (run at month end)
+- `/review` — Smart router (auto-detects daily/weekly/monthly)
+- `/project` — Create/track projects
+- `/onboard` — Interactive setup + load context
+
+### Memory System
+Claude remembers context across conversations via `/.claude/projects/-Users-mirsad-dev-PKM/memory/`. When relevant, previous context is recalled automatically. See `memory/MEMORY.md` for the index.
+
 ## Customization
 
-For personal overrides that shouldn't be committed, create `CLAUDE.local.md`.
+### Adding Custom Agents
+Create agents in `.claude/agents/` with `<name>.md`. Follow the structure of existing agents (goal-aligner, note-organizer, etc.).
+
+### Adding Hooks
+Git hooks live in `.claude/hooks/`. Configure in `.claude/settings.json` to trigger on events like `pre-commit`, `post-merge`, etc.
+
+### Adding Output Styles
+New display modes go in `.claude/output-styles/` as markdown files with clear instructions.
+
+### Local Overrides
+For personal settings that shouldn't be committed, create `CLAUDE.local.md`.
 See `CLAUDE.local.md.template` for format.
 
 ---
 
-*See @.claude/rules/ for detailed conventions*
-*Last Updated: 2026-02-15*
+*Last Updated: 2026-07-14*
 *System Version: 3.1*
 
 
