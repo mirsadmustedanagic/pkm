@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-07-14.md",
+                "file": "Daily Notes/2024-01-15-EXAMPLE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-14"
+              "title": "2024-01-15-EXAMPLE"
             }
           }
         ]
@@ -183,17 +183,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "b6c55b2dfd87af0d",
+  "active": "bc4ad442687aa052",
   "lastOpenFiles": [
+    "Daily Notes/2026-07-14.md",
+    "Daily Notes/2024-01-15-EXAMPLE.md",
+    "Daily Notes/2026-07-15.md",
     "GOALS_SUMMARY.md",
     "2026-07-13.md",
     "2026-07-15.md",
-    "Daily Notes/2026-07-14.md",
     "Goals/2. Monthly Goals.md",
     "Goals/3. Weekly Review - Week of 2026-07-13.md",
     "Goals/3. Weekly Review.md",
     "Goals/0. Three Year Goals.md",
-    "Daily Notes/2024-01-15-EXAMPLE.md",
     "Daily Notes/INBOX.md",
     "CLAUDE.md",
     "vault-config.json",
