@@ -5,7 +5,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 # Obsidian PKM Vault Context
 
 ## System Purpose
-Build meaningful work and growth across career, health, relationships, and personal development while maintaining balance and intentional progress.
+A **career-focused engineering PKM**. Supports daily prioritization, long-term project visibility (netilion2, netilion-monorepo), protection of deep work time, and systematized capture of decisions and learnings.
+
+Not in scope: personal life management (health, relationships, finance, creativity). See [[REFACTOR_PLAN]] for rationale.
 
 ## Directory Structure
 
@@ -20,15 +22,15 @@ Build meaningful work and growth across career, health, relationships, and perso
 
 ## Current Focus
 
-**Primary Areas:** Career & Professional, Health & Wellness, Relationships, Personal Growth
+**Primary Areas:** Meaningful engineering work, deep work protection, decision & learning capture, project momentum (netilion2, netilion-monorepo).
 
-See [2. Monthly Goals.md](Goals/2.%20Monthly%20Goals.md) for this month's priorities.
+See [2. Monthly Goals (Current).md](Goals/2.%20Monthly%20Goals%20%28Current%29.md) for this month's priorities.
 
 ## Tag System
 
 **Priority:** `#priority/high`, `#priority/medium`, `#priority/low`
 **Status:** `#active`, `#waiting`, `#completed`, `#archived`
-**Context:** `#work`, `#personal`, `#health`, `#learning`, `#family`
+**Context:** `#project/netilion2`, `#project/monorepo`, `#learning`, `#decision`, `#blocker`
 
 ## Available Skills
 
