@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024-01-15-EXAMPLE.md",
+                "file": "Goals/1. Yearly Goals (2026 - RECLAIM).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-01-15-EXAMPLE"
+              "title": "1. Yearly Goals (2026 - RECLAIM)"
             }
           }
         ]
@@ -183,26 +183,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "bc4ad442687aa052",
+  "active": "b6c55b2dfd87af0d",
   "lastOpenFiles": [
-    "Daily Notes/2026-07-14.md",
-    "Daily Notes/2024-01-15-EXAMPLE.md",
-    "Daily Notes/2026-07-15.md",
-    "GOALS_SUMMARY.md",
+    "Goals/0. Three Year Vision (Career).md",
+    "Daily Notes/2026-07-21.md",
+    "Archives/Templates/Monthly Plan.md",
+    "Archives/Templates/Daily Template.md",
+    "Projects/Example Project/project-notes.md",
+    "Templates/Weekly Project Review.md",
+    "Templates/Daily Note - Career.md",
+    "Projects/netilion2/CLAUDE.md",
+    "Projects/netilion2",
+    "Projects/netilion-monorepo/CLAUDE.md",
+    "Projects/netilion-monorepo",
+    "Goals/2. Monthly Goals (Current).md",
+    "Goals/1. Yearly Goals (2026 - RECLAIM).md",
+    "Archives/Templates/Weekly Review Template.md",
+    "Archives/Templates/Weekly Plan.md",
+    "Archives/Templates/Quarterly Plan.md",
+    "Archives/Templates/Project Template.md",
+    "Archives/Templates",
+    "Projects/Example Project/CLAUDE.md",
     "2026-07-13.md",
     "2026-07-15.md",
-    "Goals/2. Monthly Goals.md",
-    "Goals/3. Weekly Review - Week of 2026-07-13.md",
-    "Goals/3. Weekly Review.md",
-    "Goals/0. Three Year Goals.md",
-    "Daily Notes/INBOX.md",
     "CLAUDE.md",
-    "vault-config.json",
+    "GOALS_SUMMARY.md",
     "Templates/Weekly Review Template.md",
+    "Templates/Weekly Plan.md",
+    "Templates/Quarterly Plan.md",
     "Templates/Project Template.md",
+    "Templates/Monthly Plan.md",
     "Templates/Daily Template.md",
-    "Goals/1. Yearly Goals.md",
-    "Projects/Example Project/project-notes.md",
-    "Projects/Example Project/CLAUDE.md"
+    "vault-config.json"
   ]
 }
